@@ -20,7 +20,17 @@
         "crm.objects.companies.read",
         "crm.objects.deals.read"
       ],
-      "optionalScopes": []
+      "optionalScopes": [
+        "crm.objects.carts.read",
+        "crm.objects.products.read",
+        "crm.objects.orders.read",
+        "crm.objects.line_items.read",
+        "crm.objects.invoices.read",
+        "crm.objects.quotes.read",
+        "crm.objects.subscriptions.read",
+        "crm.objects.users.read",
+        "crm.objects.owners.read"
+      ]
     },
     "permittedUrls": {
       "fetch": ["https://api.hubapi.com"],
