@@ -1,0 +1,57 @@
+{
+  "uid": "zerotwo-ai-assistant",
+  "type": "app",
+  "config": {
+    "description": "AI-powered assistant that integrates with HubSpot CRM to help manage contacts, companies, deals, and tickets through natural language conversations via MCP.",
+    "name": "ZeroTwo AI Assistant",
+    "logo": "/app/app-logo.png",
+    "distribution": "marketplace",
+    "isUserLevel": true,
+    "auth": {
+      "type": "oauth",
+      "redirectUrls": [
+        "http://localhost",
+        "http://localhost:3000/oauth-callback",
+        "https://oauth.zerotwo.ai/oauth-callback"
+      ],
+      "requiredScopes": [
+        "oauth",
+        "crm.objects.contacts.read",
+        "crm.objects.companies.read",
+        "crm.objects.deals.read",
+        "crm.objects.tickets.read"
+      ],
+      "optionalScopes": [
+        "crm.objects.contacts.write",
+        "crm.objects.companies.write",
+        "crm.objects.deals.write",
+        "crm.objects.tickets.write",
+        "crm.objects.products.read",
+        "crm.objects.orders.read",
+        "crm.objects.line_items.read",
+        "crm.objects.invoices.read",
+        "crm.objects.quotes.read",
+        "crm.objects.subscriptions.read",
+        "crm.objects.carts.read",
+        "crm.objects.users.read",
+        "crm.objects.owners.read",
+        "crm.schemas.contacts.read",
+        "crm.schemas.companies.read",
+        "crm.schemas.deals.read",
+        "crm.schemas.tickets.read"
+      ]
+    },
+    "permittedUrls": {
+      "fetch": ["https://api.hubapi.com"],
+      "iframe": [],
+      "img": []
+    },
+    "support": {
+      "supportEmail": "support@zerotwo.ai",
+      "documentationUrl": "https://zerotwo.ai/docs",
+      "supportUrl": "https://zerotwo.ai/support",
+      "supportPhone": "+18005555555"
+    }
+  }
+}
+
