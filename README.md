@@ -29,15 +29,37 @@ The ZeroTwo HubSpot App enables AI-powered interactions with HubSpot CRM data th
    hs init
    ```
 
-2. **Create the app:**
+2. **Navigate to the project directory:**
+   ```bash
+   cd /path/to/ZeroTwoHubSpotApp
+   ```
+
+3. **Create the app from the project:**
    ```bash
    hs project create
    ```
 
-3. **Deploy the app configuration:**
+4. **Deploy the app configuration:**
    ```bash
    hs project upload
    ```
+
+### Project Structure
+
+```
+ZeroTwoHubSpotApp/
+├── hsproject.json              # HubSpot project configuration
+├── src/
+│   └── app/
+│       ├── app.json           # App metadata and scopes
+│       └── extensions/
+│           ├── oauth.json     # OAuth configuration
+│           └── listing.json   # Marketplace listing
+├── package.json
+├── README.md
+├── SETUP_GUIDE.md
+└── env.example
+```
 
 ### Configuration
 
