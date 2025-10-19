@@ -1,0 +1,25 @@
+{
+  "name": "zerotwo-hubspot-app",
+  "version": "1.0.0",
+  "description": "HubSpot app configuration for ZeroTwo AI Assistant",
+  "main": "app.json",
+  "scripts": {
+    "upload": "hs project upload",
+    "deploy": "hs project deploy",
+    "create": "hs project create"
+  },
+  "keywords": [
+    "hubspot",
+    "mcp",
+    "ai",
+    "crm",
+    "zerotwo"
+  ],
+  "author": "ZeroTwo AI",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@hubspot/cli": "^5.0.0"
+  }
+}
+

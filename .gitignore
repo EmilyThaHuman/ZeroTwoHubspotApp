@@ -1,0 +1,20 @@
+# HubSpot App Files
+node_modules/
+.env
+.env.local
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+dist/
+build/
+
